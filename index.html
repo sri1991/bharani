@@ -21,8 +21,8 @@
         a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
         a:hover { border-bottom-style: solid; color: black; }
         ul { margin: 0 0 32px 17px; }
-        #objective { width: 500px; float: left; }
-        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        #objective { width: 100%; float: left;position: relative; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666;float: left;width: 70%; }
         dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
         dd { width: 600px; float: right; }
         dd.clear { float: none; margin: 0; height: 15px; }
@@ -35,10 +35,11 @@
         	height: 200px;
         	background-position: 57% 50%;
         	background-size: 150%;
-        	top: 16%; 
+        	top: -40px; 
     		position: absolute;
-            left: 64%;
-            top: 16%;
+            right: 0px;
+        
+            
 		 }
 		 .ex1:hover{
 		 	background-size: 300%;
@@ -52,9 +53,6 @@
 <body>
 
     <div id="page-wrap">
-    
-        <div class='ex1' alt="Photo of Cthulu"  id="pic"> </div>
-
     
         <div id="contact-info" class="vcard">
         
@@ -72,6 +70,7 @@
             <p>
                 I am responsible for designing, coding and modifying websites, from layout to function and according to a client's specifications. Strive to create visually appealing sites that feature user-friendly design and clear navigation. 
             </p>
+             <div class='ex1' alt="Photo of srinivas"  id="pic"> </div>
         </div>
        
         <div class="clear"></div>
